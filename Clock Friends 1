@@ -1,4 +1,4 @@
-git config pull.rebase false
+git config pull.rebase true   # rebase
 lsi: false
 safe: true
 source: [your repo's top level directory]
