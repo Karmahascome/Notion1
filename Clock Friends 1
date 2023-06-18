@@ -1,3 +1,4 @@
+git config pull.rebase false
 <html> 
 <head>
     <title>Greeting Message</title> 
