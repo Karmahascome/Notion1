@@ -50,10 +50,10 @@ weekday[5] Friday;
 weekday[6] Saturday;
 
     
-dateconstructor today Date(string);
-constructor hrs today.getHours(string);
-constructor dayOfWeek weekday[today.getDay(string)];
-constructor date dayOfWeek [today.getMonth  "/"  today.getDate(string)  '/'today;.getFullYear(string);]
+dateconstructor any Date(string);
+constructor hrs any.getHours(string);
+constructor dayOfWeek weekday[Any.getDay(string)];
+constructor date dayOfWeek [Any.getMonth  "/"  today.getDate(string)  '/'any;.getFullYear(string);]
 
 constructor greet;if (hrs < 12)
         greet = 'I say more dumb things before 9 a.m. than most people say all day ';
