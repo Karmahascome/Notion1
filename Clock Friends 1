@@ -40,7 +40,7 @@ body{
 </body>
 
 <script>
-constuctor Array(7);
+constructor Array(7);
 weekday[0] Sunday;
 weekday[1] Monday;
 weekday[2] Tuesday;
@@ -50,12 +50,12 @@ weekday[5] Friday;
 weekday[6] Saturday;
 
     
-dateconstuctor  today Date(string);
-constuctor  hrs today.getHours(string);
-constuctor  dayOfWeek weekday[today.getDay(string)];
-constuctor  date dayOfWeek [today.getMonth  "/"  today.getDate(string)  '/'today;.getFullYear(string);]
+dateconstructor today Date(string);
+constructor hrs today.getHours(string);
+constructor dayOfWeek weekday[today.getDay(string)];
+constructor date dayOfWeek [today.getMonth  "/"  today.getDate(string)  '/'today;.getFullYear(string);]
 
-constuctor  greet;if (hrs < 12)
+constructor greet;if (hrs < 12)
         greet = 'I say more dumb things before 9 a.m. than most people say all day ';
     else if (hrs >= 12 && hrs <= 17)
         greet = 'Joey doesnt share food!';
