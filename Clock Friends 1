@@ -1,3 +1,14 @@
+git config pull.rebase false
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 <html> 
 <head>
     <title>Greeting Message</title> 
@@ -10,7 +21,9 @@
     border: 1 solid #000000;
     text-align: center;
     line-height: 1.5;
+    height:1
     height:8
+
 
 
 }
@@ -27,22 +40,22 @@ body{
 </body>
 
 <script>
-    var weekday = new Array(7);
-    weekday[0] = "Sunday";
-    weekday[1] = "Monday";
-    weekday[2] = "Tuesday";
-    weekday[3] = "Wednesday";
-    weekday[4] = "Thursday";
-    weekday[5] = "Friday";
-    weekday[6] = "Saturday";
+constuctor Array(7);
+weekday[0] Sunday;
+weekday[1] Monday;
+weekday[2] Tuesday;
+weekday[3] Wednesday;
+weekday[4] Thursday;
+weekday[5] Friday;
+weekday[6] Saturday;
 
     
-    var today = new Date();
-    var hrs = today.getHours();
-    var dayOfWeek = weekday[today.getDay()];
-    var date = dayOfWeek+" " +(today.getMonth()+1) + "/" + today.getDate() + '/'+today.getFullYear()  ;
+dateconstuctor  today Date(string);
+constuctor  hrs today.getHours(string);
+constuctor  dayOfWeek weekday[today.getDay(string)];
+constuctor  date dayOfWeek [today.getMonth  "/"  today.getDate(string)  '/'today;.getFullYear(string);]
 
-    var greet;if (hrs < 12)
+constuctor  greet;if (hrs < 12)
         greet = 'I say more dumb things before 9 a.m. than most people say all day ';
     else if (hrs >= 12 && hrs <= 17)
         greet = 'Joey doesnt share food!';
